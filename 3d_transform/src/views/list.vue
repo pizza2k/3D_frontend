@@ -52,10 +52,11 @@ const modelDatas = ref([
 const handleModelClick = async (modelId) => {
   try {
     console.log("Clicked modelId:", modelId);
+        // 跳转到指定页面
+    window.location.href = `http://localhost:8081`;
     const response = await fetchModelDetails(modelId);
     console.log("Model details:", response);
-    // 跳转到指定页面
-    window.location.href = `http://localhost:8081`;
+
   } catch (error) {
     console.error("Error fetching model details:", error);
   }
