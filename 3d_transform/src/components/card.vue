@@ -1,5 +1,5 @@
 <template>
-    <div class="my-card" @click="gotoModel" @mouseover="handleHover" @mouseleave="handleLeave">
+    <div class="my-card" @mouseover="handleHover" @mouseleave="handleLeave">
         <div class="img">
             <img :src="model.img" :alt="model.modelName" style="height: 170px; border-radius: 5px; width: 250px" />
         </div>
@@ -31,10 +31,9 @@ const props = defineProps({
     },
 });
 
-const gotoModel = () => {
-    /*router.push({ name: 'model-detail', params: { id: props.model.modelId } });*/
-    alert("goto this model");
-};
+// const gotoModel = () => {
+//     /*router.push({ name: 'model-detail', params: { id: props.model.modelId } });*/
+// };
 
 // 处理鼠标悬停
 const handleHover = (event) => {

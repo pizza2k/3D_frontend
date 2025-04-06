@@ -51,7 +51,7 @@ const modelDatas = ref([
 
 const handleModelClick = async (modelId) => {
   try {
-    console.log("Clicked modelId:", modelId);
+    // console.log("Clicked modelId:", modelId);
         // 跳转到指定页面
     //window.location.href = `http://localhost:8081`;
     window.location.href = `http://211.71.15.42:3002/`;
@@ -91,10 +91,15 @@ body {
   margin-bottom: 5vh;
 }
 .cards {
-  display: flex;
-  flex-wrap: wrap; /* 允许换行 */
-  justify-content: flex-start; /* 左对齐 */
-  gap: 0px; /* 卡片之间的间距 */
-  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 0px;
+  max-height: 80vh;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+::-webkit-scrollbar {
+  display: none; /* Chrome/Safari/Edge */
 }
 </style>
