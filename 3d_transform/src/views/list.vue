@@ -53,7 +53,8 @@ const handleModelClick = async (modelId) => {
   try {
     console.log("Clicked modelId:", modelId);
         // 跳转到指定页面
-    window.location.href = `http://localhost:8081`;
+    //window.location.href = `http://localhost:8081`;
+    window.location.href = `http://211.71.15.42:3002/`;
     const response = await fetchModelDetails(modelId);
     console.log("Model details:", response);
 

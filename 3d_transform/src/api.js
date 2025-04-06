@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const commandMap = {
-    id1: 'python view_viser.py model.model_dir="./output/EXP_NAME/" scene.scene_path="/data2/lyl/SG/semantic-gaussians/data/room"',
+    id1: 'python view_viser.py model.model_dir="./output/ROOM/" scene.scene_path="/data2/lyl/SG/semantic-gaussians/data/room"',
     id2: 'command2',
     id3: 'command3'
 };
