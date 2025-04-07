@@ -6,25 +6,25 @@ import { fetchModelDetails } from "../api.js"; // 假设api.js中有这个接口
 
 const modelDatas = ref([
   {
-    img: "/img/home/img1.jpg",
-    modelName: "model",
+    img: "/img/home/img1.png",
+    modelName: "scene~01",
     modelId: "id1",
     modelBrief:
-      "这是一个很好的模型，点进来玩玩吧asfewsaddsfgrnhefwrgefvdctadddddddddddd~",
+      "这是一个Park场景，支持所有编辑操作哦~",
   },
   {
-    img: "/img/home/img1.jpg",
-    modelName: "model",
+    img: "/img/home/img2.png",
+    modelName: "scene~02",
     modelId: "id2",
     modelBrief:
-      "这是一个很好的模型，点进来玩玩吧asfewsaddsfgrnhefwrgefvdctadddddddddddd~",
+      "这是一个Park场景，支持所有编辑操作哦~",
   },
   {
-    img: "/img/home/img1.jpg",
-    modelName: "model",
+    img: "/img/home/img3.jpg",
+    modelName: "scene~03",
     modelId: "id3",
     modelBrief:
-      "这是一个很好的模型，点进来玩玩吧asfewsaddsfgrnhefwrgefvdctadddddddddddd~",
+      "这是一个Room场景，支持所有编辑操作哦~",
   },
   {
     img: "/img/home/img1.jpg",

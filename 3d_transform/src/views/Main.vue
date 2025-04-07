@@ -2,8 +2,8 @@
 import carousel from '@/components/carousel.vue';
 import headMenu from '../components/head-menu.vue';
 const images = [
-    '/img/home/img1.jpg',
-    '/img/home/img2.jpg',
+    '/img/home/img1.png',
+    '/img/home/img2.png',
     '/img/home/img3.jpg',
 ];
 </script>

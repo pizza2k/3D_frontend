@@ -13,7 +13,7 @@
                 src="/img/home/vite.svg"
                 alt="logo"
             />
-            <span class="site-name">3D智能家装平台</span>
+            <span class="site-name">3DGS Designer</span>
         </el-menu-item>
         <el-menu-item index="1" class="nav-item">
             <router-link :to="{ name: 'main' }" class="nav-link">首页</router-link>
