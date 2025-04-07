@@ -34,15 +34,17 @@ html, body {
 }
 
 #my-main {
-    margin-top: 0vh;
     width: 100%;
+    height: 100%;
     /* background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
 }
 
 .el-menu {
-    margin-top: 3vh;
+    /* margin-top: 3vh; */
 }
-
+.my-carousel {
+    margin:0vh 10vh;
+}
 .backGround {
     padding-top: 12vh; 
     padding-bottom: 50px;
@@ -51,9 +53,7 @@ html, body {
     background-repeat: no-repeat;
 }
 
-.my-carousel {
-    
-}
+
 
 .my-link {
     margin-top: 12vh;
