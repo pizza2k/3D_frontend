@@ -4,9 +4,9 @@
             <img :src="model.img" :alt="model.modelName" style="height: 170px; border-radius: 5px; width: 250px" />
         </div>
         <div class="font">
-            <div class="modelName">
+            <em class="modelName">
                 {{ model.modelName }}:
-            </div>
+            </em>
             <div class="modelBrief">
                 {{ model.modelBrief }}
             </div>
@@ -81,6 +81,7 @@ const handleLeave = (event) => {
     overflow: hidden; /* 隐藏超出容器的内容 */
     text-overflow: ellipsis; /* 显示省略号 */
     white-space: nowrap;
+    font-style: italic; /* 斜体 */
 }
 
 .modelBrief {
